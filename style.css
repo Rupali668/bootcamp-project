@@ -1,0 +1,279 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body and Font Styling */
+  body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+  }
+  
+  /* Container */
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+  justify-content: space-between; /* Align logo and nav links */
+  align-items: center; /* Vertically center content */
+  padding: 20px 40px;
+  background-color: #333;
+  }
+
+  
+  header .logo {
+    color: #ff4b5c;
+    font-family: 'Roboto', sans-serif;
+  }
+    /* Logo and Band Name Container */
+
+  
+  /* Band Name Styling */
+  .band-name {
+    font-size: 2rem; /* Band name size */
+    color: white;
+    font-family: 'Arial', sans-serif; /* Set font for the band name */
+    margin: 0; /* Remove default margin */
+  }
+  
+
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  nav ul li a:hover {
+    color: #ff4b5c; /* Hover effect */
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  header nav ul li {
+    margin: 0 20px;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s;
+  }
+  
+  header nav ul li a:hover {
+    color: #ff4b5c;
+    transition: transform 0.5s ease;
+  }
+   /* Zoom-out effect when applied */
+.zoomed-out {
+    transform: scale(0.8);  /* Zoom-out by 20% */
+    transform-origin: center; /* Zoom out from the center */
+  }
+  
+  /* Styling for the Listen to Our Music Link */
+  #listen-music {
+    font-size: 1.5em;
+    color: #333;
+    text-decoration: none;
+    margin: 20px;
+    padding: 15px 30px;
+    background-color: #ff4b5c;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  #listen-music:hover {
+    background-color: #333;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url('https://images.pexels.com/photos/811838/pexels-photo-811838.jpeg') no-repeat center center/cover;
+
+    padding: 200px 0;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    background-color: #ff4b5c;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+  }
+  
+  .cta-button:hover {
+    background-color: #333;
+  }
+
+  /* About Section */
+.about {
+    background: url('https://images.unsplash.com/photo-1535587566541-97121a128dc5?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z3VpdGFyfGVufDB8fDB8fHww') no-repeat center center/cover;
+    padding: 50px 0;
+    text-align: center;
+    color:#ccc;
+    transition: transform 0.5s ease;  /* Smooth transition for zoom effect */
+    will-change: transform;  /* Optimizes performance */
+  }
+  
+  /* Zoom-out effect when applied */
+  .about.zoomed-out {
+    transform: scale(0.9);  /* Zoom out by 10% */
+    transform-origin: top center;
+  }
+ 
+  /* Add more styling if needed */
+  .about h2, .about p {
+    font-family: Arial, sans-serif;
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+  
+  
+  .about p {
+    max-width: 800px;
+    margin: 20px auto;
+    font-size: 1.2em;
+  }
+  
+  /* Members Section */
+  .members {
+     padding: 50px 0;
+    text-align: center;
+    color:#ccc;
+  }
+  
+  .member-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .member {
+    background:#333;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .member img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .member h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  /* Albums Section */
+  .albums {
+    padding: 100px 0;
+  }
+  
+  .album-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .album {
+    text-align: center;
+  }
+  
+  .album img {
+    max-width: 300px;
+    margin-bottom: 15px;
+  }
+  
+  .album h3 {
+    font-size: 1.5em;
+  }
+  
+  /* Events Section */
+  .events {
+    padding: 50px 0;
+  }
+  
+  .event-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .event {
+    background: #333;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .event h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  /* Contact Section */
+  .contact {
+   
+    
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .contact form input,
+  .contact form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact form button {
+    padding: 15px 30px;
+    background-color: #ff4b5c;
+    color: white;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact form button:hover {
+    background-color: #333;
+  }
+  
+  /* Footer Section */
+  footer {
+    background: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }  
