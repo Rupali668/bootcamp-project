@@ -1,11 +1,10 @@
-/* Resetting default styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  /* Body and Font Styling */
+  /* Body and Font  */
   body {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.6;
@@ -13,7 +12,7 @@
     background-color: #f4f4f4;
   }
   
-  /* Container */
+  
   .container {
     width: 90%;
     max-width: 1200px;
@@ -34,15 +33,15 @@
     color: #ff4b5c;
     font-family: 'Roboto', sans-serif;
   }
-    /* Logo and Band Name Container */
+    
 
   
-  /* Band Name Styling */
+  
   .band-name {
-    font-size: 2rem; /* Band name size */
+    font-size: 2rem;
     color: white;
-    font-family: 'Arial', sans-serif; /* Set font for the band name */
-    margin: 0; /* Remove default margin */
+    font-family: 'Arial', sans-serif; 
+    margin: 0; 
   }
   
 
@@ -54,7 +53,7 @@
   }
   
   nav ul li a:hover {
-    color: #ff4b5c; /* Hover effect */
+    color: #ff4b5c; 
   }
   
   header nav ul {
@@ -78,10 +77,10 @@
     color: #ff4b5c;
     transition: transform 0.5s ease;
   }
-   /* Zoom-out effect when applied */
+   /* Zoom-out effect*/
 .zoomed-out {
-    transform: scale(0.8);  /* Zoom-out by 20% */
-    transform-origin: center; /* Zoom out from the center */
+    transform: scale(0.8);  
+    transform-origin: center; 
   }
   
   /* Styling for the Listen to Our Music Link */
@@ -100,7 +99,7 @@
     background-color: #333;
   }
   
-  /* Hero Section */
+
   .hero {
     background: url('https://images.pexels.com/photos/811838/pexels-photo-811838.jpeg') no-repeat center center/cover;
 
@@ -139,16 +138,14 @@
     text-align: center;
     color:#ccc;
     transition: transform 0.5s ease;  /* Smooth transition for zoom effect */
-    will-change: transform;  /* Optimizes performance */
+    will-change: transform;  
   }
-  
-  /* Zoom-out effect when applied */
+
   .about.zoomed-out {
-    transform: scale(0.9);  /* Zoom out by 10% */
+    transform: scale(0.9); 
     transform-origin: top center;
   }
- 
-  /* Add more styling if needed */
+
   .about h2, .about p {
     font-family: Arial, sans-serif;
     font-size: 1.2em;
@@ -161,8 +158,6 @@
     margin: 20px auto;
     font-size: 1.2em;
   }
-  
-  /* Members Section */
   .members {
      padding: 50px 0;
     text-align: center;
@@ -216,7 +211,7 @@
     font-size: 1.5em;
   }
   
-  /* Events Section */
+  
   .events {
     padding: 50px 0;
   }
@@ -239,7 +234,7 @@
     margin-bottom: 10px;
   }
   
-  /* Contact Section */
+  /* Contact */
   .contact {
    
     
@@ -270,7 +265,7 @@
     background-color: #333;
   }
   
-  /* Footer Section */
+  /* Footer */
   footer {
     background: #333;
     color: white;
